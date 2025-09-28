@@ -1,0 +1,5 @@
+{
+"devices": [
+{"id": 1, "name": "Smart Car Sensor", "type": "auto_spares", "data": "brake wear 80%"}
+]
+}
