@@ -1,0 +1,51 @@
+services:
+
+type: web
+name: auto-spares-bot
+env: python
+buildCommand: pip install -r requirements.txt && npm install
+startCommand: python main.py
+envVars:
+key: TELEGRAM_TOKEN
+value: {{TELEGRAM_TOKEN}}
+key: GROQ_API_KEY
+value: {{GROQ_API_KEY}}
+key: SITE_URL
+value: https://sasaparts.com/
+key: WHATSAPP_NUMBER
+value: +254700123456
+key: ENCRYPTION_KEY
+value: {{32_RANDOM_CHARS}}
+key: FB_COOKIES_JSON
+value: []
+key: PROXY_LIST
+value: https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http
+key: GDRIVE_FOLDER_ID
+value: {{GDRIVE_FOLDER_ID}}
+key: RENDER_API_KEY
+value: {{RENDER_API_KEY}}
+key: RENDER_SERVICE_ID
+value: {{RENDER_SERVICE_ID}}
+key: ADMIN_ID
+value: {{YOUR_TELEGRAM_ID}}
+key: TWITTER_API_KEY
+value: {{TWITTER_API_KEY}}
+key: TWITTER_API_SECRET
+value: {{TWITTER_API_SECRET}}
+key: TWITTER_ACCESS_TOKEN
+value: {{TWITTER_ACCESS_TOKEN}}
+key: TWITTER_ACCESS_TOKEN_SECRET
+value: {{TWITTER_ACCESS_TOKEN_SECRET}}
+key: SANDBOX_MODE
+value: true
+key: REDIS_URL
+value: redis://localhost:6379
+key: GITHUB_TOKEN
+value: {{GITHUB_TOKEN}}
+key: ADMIN_GROUP_ID
+value: {{ADMIN_GROUP_ID}}
+disk:
+name: data
+mountPath: /app/data
+sizeGB: 1
+plan: free
