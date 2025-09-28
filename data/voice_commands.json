@@ -1,0 +1,6 @@
+{
+"commands": [
+{"phrase": "create 50 bots", "action": "botnet_create_account batch 50"},
+{"phrase": "run social campaign", "action": "auto_social_tasks"}
+]
+}
