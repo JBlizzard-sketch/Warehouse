@@ -1,0 +1,9 @@
+{
+"bots_to_create": 100,
+"posts_per_hour": 20,
+"post_hour_start": 6,
+"post_hour_end": 22,
+"comments_per_post": 5,
+"groups_to_join": 10,
+"reviews_per_day": 50
+}
