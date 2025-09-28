@@ -1,0 +1,6 @@
+{
+"response": "Act human, urgent, trustworthy. Use {tone} per query. Emphasize limited stock, Nakuru warehouse, G4S 1-2 day delivery. Query: {query}. Product: {product}. Number: {number}. If found, ask for name, phone, address, ID.",
+"suggestions": "Analyze logs: {logs}. Suggest optimization (e.g., increase posts, adjust time).",
+"review": "Generate a review in {tone} for {product}. 3-5 stars, Kenyan style.",
+"behavior": "Respond as {persona} for {query}."
+}
