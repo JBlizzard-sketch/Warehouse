@@ -1,0 +1,5 @@
+{
+"hooks": [
+{"repo": "owner/repo", "branch": "main", "auto_pull": true}
+]
+}
