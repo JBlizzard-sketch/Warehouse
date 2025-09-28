@@ -1,0 +1,5 @@
+{
+"shards": [
+{"bot_id": 1, "model_params": {"accuracy": 0.85}}
+]
+}
