@@ -1,0 +1,6 @@
+{
+"anomalies": [
+{"type": "ban_risk", "threshold": 0.8, "action": "pause_bot"},
+{"type": "engagement_drop", "threshold": 0.5, "action": "retrain_model"}
+]
+}
