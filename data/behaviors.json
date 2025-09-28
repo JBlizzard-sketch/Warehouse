@@ -1,0 +1,12 @@
+{
+"tones": [
+{"name": "sheng", "keywords": ["ziko", "poa", "sawa"]},
+{"name": "swahili", "keywords": ["mafuta", "tairi", "beteri"]},
+{"name": "english", "keywords": ["brake", "shock", "clutch"]}
+],
+"urgency": {"keywords": ["asap", "urgent", "now", "sasa", "haraka"]},
+"personas": [
+{"name": "casual", "style": "Sheng mix, friendly"},
+{"name": "professional", "style": "English, formal"}
+]
+}
