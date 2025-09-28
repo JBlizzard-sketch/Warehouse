@@ -1,0 +1,15 @@
+PYTHON_VERSION=3.11
+TELEGRAM_TOKEN=your_telegram_token
+GROQ_API_KEY=your_groq_key
+SITE_URL=https://sasaparts.com/
+WHATSAPP_NUMBER=+254700123456
+ENCRYPTION_KEY=2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3=
+FB_COOKIES_JSON={"cookies": [{"name": "c_user", "value": "mock_user"}, {"name": "xs", "value": "mock_xs"}]}
+TWITTER_ACCESS_TOKEN=your_twitter_token
+TWITTER_ACCESS_TOKEN_SECRET=your_twitter_secret
+TWITTER_CONSUMER_KEY=your_twitter_key
+TWITTER_CONSUMER_SECRET=your_twitter_secret
+GITHUB_TOKEN=your_github_token
+GDRIVE_FOLDER_ID=1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7
+SANDBOX_MODE=true
+ADMIN_ID=123456789
