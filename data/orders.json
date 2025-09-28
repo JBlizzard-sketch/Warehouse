@@ -1,0 +1,5 @@
+{
+"mock_orders": [
+{"chat_id": "123456", "product_id": 1, "status": "pending"}
+]
+}
